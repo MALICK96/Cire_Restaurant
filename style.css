@@ -1,0 +1,143 @@
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+/* color
+    #2f3035 darkgray
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+body {
+  /* background-color: #2f3035; */
+  /* background-color: rgba(17, 17, 17, 0.43); */
+
+  background: rgba(17, 17, 17, 0.43) url("images/bg-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: darken;
+  filter: brightness(30%);
+  filter: contrast(100%)
+  /* background-color: rgba(0, 0, 0, 0.53); */
+  /* color: #fff; */
+}
+/* ALL CONTENT WRAPPER */
+.container {
+  width: 1024px;
+  margin: auto;
+}
+
+/* HEADER */
+header {
+  /* width: 1024px; */
+  /* background-color: blue; */
+  height: 110px;
+  text-align: center;
+  margin: 50px 30px 0px;
+}
+
+/* Main logo */
+.main-logo {
+  widows: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+/* NAVIGATION */
+nav {
+  /* width: 1024px; */
+  background-color: rgba(0, 0, 0, 0.3);
+  /* height: 40px; */
+  text-align: center;
+  padding: 14px 0;
+  /* margin-bottom: 15px; */
+}
+
+/* MAIN CONTENT */
+main {
+  /* width: 1024px; */
+  height: 400px;
+  /* background-color: orange; */
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px 240px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+main h1 {
+  font-size: 90px;
+  font-weight: lighter;
+  /* margin */
+}
+
+main p {
+  text-align: center;
+  /* cursor: pointer; */
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+
+/* main p::selection {
+
+} */
+
+.main-link {
+  padding: 8px 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  /* border: 1px solid #ccc; */
+  font-size: 14px;
+  color: #fff;
+  border-radius: 15px;
+  transition: background-color 0.3s ease-in-out;
+}
+nav .link {
+  display: inline-block;
+  font-size: 12px;
+  padding: 10px 20px;
+  transition: background-color 0.2s ease-in;
+  border-radius: 14px;
+  /* border: 1px solid rgba(255, 255, 255, 0.7); */
+
+}
+/* Button Link */
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hover Effect and focus */
+.main-link:hover {
+  background-color: #ffa500;
+  
+}
+
+nav .link:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  /* border-radius: 14px; */
+  
+}
+footer {
+  background: rgba(0, 0, 0, 0.3); 
+  /* padding: 14px; */
+  text-align: center;
+  padding: 50px 0;
+}
+footer p {
+  color: rgb(198, 198, 198);
+  font-size: 10px;
+  letter-spacing: 1px;
+  /* background-color: red; */
+}
+
+/* Google Map */
+.map {
+  margin-bottom: 30px;
+}
